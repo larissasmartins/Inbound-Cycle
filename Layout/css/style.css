@@ -1,0 +1,57 @@
+:root {
+    --main-color: rgb(237, 89, 0);
+    --secondary-color: rgb(115, 191, 224);
+}
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    text-decoration: none;
+}
+
+/* Desktop style */
+
+body{
+    align-items: center;
+    border-top: .2rem solid var(--main-color);
+}
+
+/* Header */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 130rem; 
+    height: 8rem;
+    margin: auto; 
+}
+.header__logo:hover{
+    cursor: pointer;
+}
+
+/* Social Media Icons */
+.social-icons {
+    display: flex;
+    list-style: none;
+}
+i{
+    margin: .3rem;
+    color: var(--main-color);
+    transition: .1s ease;
+}
+i:hover {
+    transition: .4s ease;
+    color: var(--secondary-color);
+}
+
+.separator-image{
+    background-image: url(../img/separator-image.jpg);
+    max-width: 100%;
+    min-height: 8.8rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
