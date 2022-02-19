@@ -1,6 +1,7 @@
 :root {
     --main-color: rgb(237, 89, 0);
     --secondary-color: rgb(115, 191, 224);
+    --tertiary-color: rgb(201, 201, 201);
 }
 
 *,
@@ -17,6 +18,7 @@
 body{
     align-items: center;
     border-top: .2rem solid var(--main-color);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Header */
@@ -33,7 +35,7 @@ header{
 }
 
 /* Social Media Icons */
-.social-icons {
+.social-icons{
     display: flex;
     list-style: none;
 }
@@ -42,16 +44,73 @@ i{
     color: var(--main-color);
     transition: .1s ease;
 }
-i:hover {
+i:hover{
     transition: .4s ease;
     color: var(--secondary-color);
 }
 
 .separator-image{
     background-image: url(../img/separator-image.jpg);
-    max-width: 100%;
+    width: 100%;
     min-height: 8.8rem;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
 }
+
+/* Main Content Container */
+.container-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3.5rem 6rem 0 2rem; 
+    max-width: 1470px;
+    width: 100%;
+    margin: 0 auto;
+}
+section{
+    max-width: 59rem;
+}
+.ebook-image{
+    float: right;
+    margin: -6rem 9rem 1rem 0;
+    max-width: 15rem;
+    position: relative;
+}
+.ebook-image:hover{
+    cursor: pointer;
+}
+
+/* Titles and text */
+.container-title{
+    color: var(--main-color);
+    font-size: 2.4rem;
+    font-weight: 400;
+}
+.container-subtitle{
+    color: var(--tertiary-color);
+    font-weight: 200;
+    margin: 5.5rem 0 2.8rem 0;
+    width: 50%;
+}
+.container-text{
+    color: black;
+    font-size: 1.2rem;
+    margin-right: 12rem;
+    line-height: 1.8rem;
+}
+.container-text-markup{
+    color: var(--main-color);
+}
+.emphasizes{
+    color: var(--main-color);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 4rem 0 4rem 0;
+}
+.emphasizes:hover{
+    cursor: pointer;
+    color: var(--secondary-color);
+    transition: .2s;
+}
+
