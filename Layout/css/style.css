@@ -1,7 +1,8 @@
 :root {
     --main-color: rgb(237, 89, 0);
     --secondary-color: rgb(115, 191, 224);
-    --tertiary-color: rgb(201, 201, 201);
+    --tertiary-color: rgb(245, 248, 250);
+    --quaternary-color: rgb(90, 90, 91);
 }
 
 *,
@@ -41,8 +42,8 @@ header{
 }
 i{
     margin: .3rem;
-    color: var(--main-color);
     transition: .1s ease;
+    color: var(--main-color);
 }
 i:hover{
     transition: .4s ease;
@@ -55,7 +56,12 @@ i:hover{
     min-height: 8.8rem;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     position: relative;
+}
+.separator-image:hover{
+    opacity: .8;
+    cursor: pointer;
 }
 
 /* Main Content Container */
@@ -88,19 +94,22 @@ section{
     font-weight: 400;
 }
 .container-subtitle{
-    color: var(--tertiary-color);
+    color: rgb(209, 209, 209);
     font-weight: 200;
     margin: 5.5rem 0 2.8rem 0;
     width: 50%;
 }
 .container-text{
-    color: black;
+    color: var(--quaternary-color);
     font-size: 1.2rem;
     margin-right: 12rem;
     line-height: 1.8rem;
 }
 .container-text-markup{
     color: var(--main-color);
+}
+.container-text-markup:hover{
+    text-decoration: underline;
 }
 .emphasizes{
     color: var(--main-color);
@@ -109,8 +118,71 @@ section{
     margin: 4rem 0 4rem 0;
 }
 .emphasizes:hover{
-    cursor: pointer;
     color: var(--secondary-color);
     transition: .2s;
+    cursor: pointer;
 }
 
+/* Aside form */
+aside{
+    padding: 1rem; 
+}
+.form-box{
+    width: 13rem;
+    padding: 1.5rem 2rem;
+    border: none;
+    background-color: var(--tertiary-color);
+}
+.form-title{
+    color: var(--main-color);
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: .8rem;
+    margin: 0 0 1rem 0;
+}
+
+/* Form inputs style */
+fieldset{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+}
+input[type=text], input[type=email]{
+    width: 100%;
+    padding: .7rem;
+    margin: .4rem 0;
+    border: .1rem solid rgb(193, 192, 192);
+}
+input::placeholder{
+    color: rgb(193, 192, 192);
+}
+
+label{
+    font-size: .8rem;
+    display: block;
+    margin-top: .9rem;
+    color: var(--quaternary-color);
+}
+label a{
+    color: var(--main-color);
+    margin: 0 0 0 .2rem;
+}
+
+/* Aside form button */
+button{
+    background-color: var(--main-color);
+    padding: .8rem 4rem;
+    margin: 1rem 0 .4rem 0;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    transition: .4s ease;
+}
+button:hover{
+    background-color: var(--secondary-color);
+    transform: .2s;
+}
