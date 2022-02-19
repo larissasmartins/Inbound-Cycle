@@ -1,2 +1,2 @@
 # Inbound-Cycle
-Se trata de una maquetación de una página sencilla a partir de un design, para valorar más profundamente los conocimientos de HTML, CSS, JavaScript y diseño responsive.
+This project is a landing page created with the technologies HTML5, CSS3 and Javascript, with responsive layout.
