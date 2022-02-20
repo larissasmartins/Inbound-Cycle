@@ -46,7 +46,7 @@ i{
     color: var(--main-color);
 }
 i:hover{
-    transition: .4s ease;
+    transition: .3s ease;
     color: var(--secondary-color);
 }
 
@@ -75,12 +75,13 @@ i:hover{
     margin: 0 auto;
 }
 section{
-    max-width: 59rem;
+    max-width: 58rem;
+    padding: 0 0 0 8rem;
 }
 .ebook-image{
     float: right;
-    margin: -6rem 9rem 1rem 0;
-    max-width: 15rem;
+    margin: -5rem 4rem 0 0;
+    max-width: 16rem;
     position: relative;
 }
 .ebook-image:hover{
@@ -90,7 +91,7 @@ section{
 /* Titles and text */
 .container-title{
     color: var(--main-color);
-    font-size: 2.4rem;
+    font-size: 2.8rem;
     font-weight: 400;
 }
 .container-subtitle{
@@ -101,8 +102,8 @@ section{
 }
 .container-text{
     color: var(--quaternary-color);
-    font-size: 1.2rem;
-    margin: 0 12rem 0 0;
+    font-size: 1.1rem;
+    margin: 0 1rem 0 0;
     line-height: 1.8rem;
 }
 .container-text-markup{
@@ -112,6 +113,7 @@ section{
     text-decoration: underline;
 }
 .emphasizes{
+    text-align: center;
     color: var(--main-color);
     font-weight: bold;
     text-transform: uppercase;
@@ -125,11 +127,11 @@ section{
 
 /* Aside form */
 aside{
-    padding: 1rem; 
+    padding: .8rem; 
 }
 .form-box{
     width: 13rem;
-    padding: 1.5rem 2rem;
+    padding: 2rem 2rem;
     border: none;
     background-color: var(--tertiary-color);
 }
@@ -195,7 +197,7 @@ footer{
     background: var(--quaternary-color);
     color: var(--tertiary-color);
     width: 100%;
-    margin: 3rem 0 0 0;
+    margin: 2rem 0 0 0;
 }
 .footer-frame{
     display: flex;
