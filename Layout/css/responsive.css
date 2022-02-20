@@ -1,0 +1,76 @@
+
+/* Tablet styles */
+@media (min-width: 768px) and (max-width: 1024px){
+    .container-wrapper{
+        width: 100%;
+    }
+    section{
+        padding: 0 0 0 4rem;
+        width: 100%;
+        align-items: center;
+    }
+  .ebook-image{
+      margin: -5rem 0 0 0;
+      max-width: 15rem;
+      width: 100%;
+  }
+  .container-title{
+      font-size: 2rem;
+      max-width: 25rem;
+      width: 100%;
+  }
+  .container-subtitle{
+      margin-top: 3rem;
+      width: 100%;
+  }
+  .container-text{
+      text-align: justify;
+      width: 90%;
+  }
+}
+
+/*  Mobile device style */
+@media screen and (max-width: 470px){
+  header {
+      justify-content: center;
+      flex-direction: column;
+      justify-content: space-evenly;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .wrapper{
+      padding: 8%;
+  }   
+  section{
+      text-align: center;
+      padding: 0;
+  }
+  .ebook-image{
+      float: none;
+      margin: -5rem 0 0 0;
+  }
+  .container-title{
+      font-size: 1.6rem;
+      width: 90%;
+      margin-top: 1rem;
+      text-align: center;
+  }
+  .container-subtitle{
+      font-size: 1.2rem;
+      margin-top: 1rem;
+      text-align: center;
+      width: 90%;
+  }
+  .container-text{
+      width: 100%;
+      text-align: justify;
+      font-size: 16px;
+      padding: 0px;
+      line-height: 1.5rem;
+  }
+  .emphasizes {
+      padding-right: 6%;
+      padding-left: 6%;
+  }
+}
