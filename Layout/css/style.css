@@ -102,7 +102,7 @@ section{
 .container-text{
     color: var(--quaternary-color);
     font-size: 1.2rem;
-    margin-right: 12rem;
+    margin: 0 12rem 0 0;
     line-height: 1.8rem;
 }
 .container-text-markup{
@@ -159,15 +159,18 @@ input::placeholder{
     color: rgb(193, 192, 192);
 }
 
+.fieldset-checkbox{
+    align-items: start;
+}
 label{
     font-size: .8rem;
     display: block;
-    margin-top: .9rem;
+    margin: .9rem 0 0 .2rem;
     color: var(--quaternary-color);
 }
 label a{
     color: var(--main-color);
-    margin: 0 0 0 .2rem;
+    margin: 0 0 0 .1rem;
 }
 
 /* Aside form button */
@@ -186,3 +189,5 @@ button:hover{
     background-color: var(--secondary-color);
     transform: .2s;
 }
+
+/* Footer */ 
