@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/style.css">  
+  <link rel="stylesheet" href="css/popup.css">  
   <title>InboundCycle | Landing Page</title>
 </head>
 <html>
@@ -52,18 +53,18 @@
     <!-- Aside -->
     <aside>
       <!-- Download form -->
-      <form class="form-box" action="post">
+      <form class="form-box">
         <h3 class="form-title">Descargar e-book gratis</h3>
         <fieldset>
           <input type="text" name="name" placeholder="Nombre">
           <input type="text" name="surname" placeholder="Apellidos">
           <input type="email" name="email"  placeholder="Email">
         </fieldset>
-        <fieldset class="form-checkbox">
+        <fieldset class="fieldset-checkbox">
           <label><input type="checkbox" name="legal"> Acepto la <a href="#" title="Lea nuestra política de privacidad">política de privacidad</a>*</label>
           <label><input type="checkbox" name="subscription"> Suscríbeme al blog</label>
         </fieldset>
-        <button type="submit">Descargar</button>
+        <button class="form-button trigger_popup_fricc" type="button" >Descargar</button>
       </form>
     </aside>
   </div>
@@ -71,12 +72,14 @@
   <footer>
     <div class="footer-frame">
       <!-- Logotype -->
+      <div class="footer-frame__img">
       <img src="img/inboundcycle-logo-small.png" class="logotype" alt="InboundCycle">
+      </div>
       <!-- Legal menu -->
       <nav>
         <ul>
-          <li><a href="#" title="Lea nuestra política de privacidad">Política de Privacidad</a></li>
-          <li><a href="#" title="Lea el aviso legal">Aviso Legal</a></li>
+          <li class="footer-frame__privacy"><a href="#" title="Lea nuestra política de privacidad">Política de Privacidad</a></li>
+          <li class="footer-frame__legal"><a href="#" title="Lea el aviso legal">Aviso Legal</a></li>
         </ul>
       </nav>
       <!-- Copyright -->
@@ -84,11 +87,11 @@
     </div>
   </footer>
   <!-- Pop-up -->
-  <div class="popup">
+  <div class="popup popup-window">
     <div class="caption">
-      <i class="fa fa-times"></i>
+      <i class="popup-close fa fa-times"></i>
       <p>¡Muchas gracias!</p>
-      <small>Confirmamos que has recibido el ebook en su correo.</small>
+      <small>Has recibido el ebook en su correo.</small>
     </div>
   </div>
 </body>
