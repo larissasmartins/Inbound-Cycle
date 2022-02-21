@@ -29,6 +29,8 @@
     .ebook-image{
         float: none;
         margin: -1rem 0 0 0;
+        max-width: 16rem;
+        width: 100%;
     }
     .container-title{
         font-size: 1.6rem;
