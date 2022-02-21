@@ -29,4 +29,4 @@ function modifySendButton() {
 
 sendButton.addEventListener("click", sendInfo);
 closeButton.addEventListener("click", closeWindow);
-policyCheckbox.onclick = modifySendButton;
+policyCheckbox.addEventListener("click", modifySendButton);
