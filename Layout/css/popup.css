@@ -1,4 +1,7 @@
 /* Popup style */
+:root {
+    --main-color: rgb(237, 89, 0);
+}
 
 .popup{
     display: none;
@@ -22,14 +25,22 @@
     background-color: white;
     box-shadow: 0 .5rem 2rem rgb(237, 89, 0, .30);
 }
-p{
+.popup p{
     margin: 0 0 .5rem 0;
-    color: rgb(237, 89, 0);
+    color: var(--main-color);
 }
 .popup-close{
-    color: rgb(237, 89, 0);
+    color: var(--main-color);
     position: absolute;
     right: 2px;
     top: -3px;
     cursor: pointer;
+}
+
+/* Privacy policy not checked - disable button */
+.disable-form-button{
+    background: rgba(0, 0, 0, 0.60);
+}
+.form-button{
+    background: var(--main-color);
 }
