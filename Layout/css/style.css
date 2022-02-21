@@ -126,7 +126,7 @@ section{
     color: var(--main-color);
     font-weight: bold;
     text-transform: uppercase;
-    margin: 4rem 0 4rem 0;
+    margin: 4rem 0 3rem 0;
 }
 .emphasizes:hover{
     color: var(--secondary-color);
