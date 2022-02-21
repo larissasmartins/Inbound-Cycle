@@ -18,4 +18,10 @@ The goal is to create a responsive landing page with a simple form.
 6. Pop-up;</br>
 
 ## Layout
-</br><p align="center">Status: In progress... :hourglass_flowing_sand:</p>
+</br><h3 align="center">Status: Done! :white_check_mark:</h3>
+
+<h3 align="center">
+  <a href="https://inbound-cycle.vercel.app/">Click here to check it out!</a>
+</h3></br>
+
+![gifinbound1](https://user-images.githubusercontent.com/96597131/154974118-9a96dfb9-ad37-4e27-963a-b111bc209f46.gif)
