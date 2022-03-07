@@ -60,14 +60,19 @@
         flex-direction: column;
         text-align: center;
         justify-content: center;
+        padding: .1rem 0 .1rem 0;
     }
+    .footer-frame nav ul{
+        flex-direction: column;
+        gap: .3rem;
+    } 
     .footer-frame__img{
         margin: 1rem auto;
         text-align: center;
     }
     footer li :first-child, small{
-        margin: 0 0 .8rem .8rem;
-        align-items: center;
+        margin: 0 0 .5rem 0;
+        border-left: none;
     }
 }
 

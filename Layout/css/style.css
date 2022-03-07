@@ -185,7 +185,6 @@ label a{
 
 /* Aside form button */
 button{
-    background-color: var(--main-color);
     padding: .8rem 4.2rem;
     margin: 2rem 0 .2rem 0;
     border: none;
@@ -194,10 +193,6 @@ button{
     font-weight: bold;
     color: white;
     transition: .4s ease;
-}
-button:hover{
-    background-color: var(--secondary-color);
-    transform: .2s;
 }
 
 /* Footer */ 
@@ -225,6 +220,14 @@ footer{
     margin-right: auto;
     width: 13rem;
 }
+.footer-frame__img{
+    transition: .4s;
+}
+.footer-frame__img:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
 footer ul{
     list-style: none;
     display: flex;
@@ -235,6 +238,10 @@ footer li a{
     text-decoration: none;
     border-left: 1px solid;
     padding-left: 10px;
+    transition: .2s;
+}
+footer li a:hover{
+    color: var(--main-color);
 }
 footer li :first-child,
 small{
