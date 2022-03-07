@@ -22,8 +22,10 @@ function closeWindow() {
 function modifySendButton() {
     if (policyCheckbox.checked) {
         sendButton.disabled = false;
+        sendButton.classList.replace('disable-button', 'enable-button');
     } else {
         sendButton.disabled = true;
+        sendButton.classList.replace('enable-button', 'disable-button');
     }
 }
 

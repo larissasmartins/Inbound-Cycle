@@ -37,10 +37,14 @@
     cursor: pointer;
 }
 
-/* Privacy policy not checked - disable button */
-.disable-form-button{
-    background: rgba(0, 0, 0, 0.60);
+/* Privacy policy not checked - button style */
+.enable-button{
+    background-color: var(--main-color);
 }
-.form-button{
-    background: var(--main-color);
+.enable-button:hover{
+    background-color: var(--secondary-color);
+    transform: .2s;
+}
+.disable-button{
+    background-color: var(--quaternary-color);
 }
